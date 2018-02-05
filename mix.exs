@@ -22,7 +22,7 @@ defmodule CuttlefishPoc.Mixfile do
   defp deps do
     [
       #{:neotoma,  [ git: "git@github.com:bryanhuntesl/neotoma.git", manager: :rebar3 , tag: "rebar3" ]}, 
-      {:cuttlefish, [ git: "git@github.com:bryanhuntesl/cuttlefish.git" , manager: :rebar3, tag: "rebar3" ]} 
+      {:cuttlefish, [ git: "https://github.com/bryanhuntesl/cuttlefish.git" , manager: :rebar3, tag: "rebar3" ]} 
     ]
   end
 end
