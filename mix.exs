@@ -21,8 +21,7 @@ defmodule CuttlefishPoc.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      #{:neotoma,  [ git: "git@github.com:bryanhuntesl/neotoma.git", manager: :rebar3 , tag: "rebar3" ]}, 
-      {:cuttlefish, [ git: "https://github.com/bryanhuntesl/cuttlefish.git" , manager: :rebar3, tag: "rebar3" ]} 
+      {:cuttlefish, [ git: "https://github.com/Kyorai/cuttlefish.git" , tag: "develop" ]} 
     ]
   end
 end

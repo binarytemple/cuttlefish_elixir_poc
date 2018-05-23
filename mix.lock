@@ -1,4 +1,6 @@
-%{"cuttlefish": {:git, "git@github.com:bryanhuntesl/cuttlefish.git", "649cda2828ef939126a20faa5d0ee0a2ab69f9a6", [tag: "rebar3"]},
-  "getopt": {:hex, :getopt, "1.0.1", "c73a9fa687b217f2ff79f68a3b637711bb1936e712b521d8ce466b29cbf7808a", [:rebar3], [], "hexpm"},
+%{
+  "cuttlefish": {:git, "https://github.com/Kyorai/cuttlefish.git", "f1873503c0bf90d3bbbd97dc6cb603c53c60b22c", [tag: "develop"]},
+  "getopt": {:git, "https://github.com/basho/getopt.git", "880030ff0cbecb73ba75a78a7aa0cc1dcb7fe331", [branch: "rebar3"]},
   "goldrush": {:hex, :goldrush, "0.1.9", "f06e5d5f1277da5c413e84d5a2924174182fb108dabb39d5ec548b27424cd106", [:rebar3], [], "hexpm"},
-  "lager": {:hex, :lager, "3.6.1", "9d29c5ff7f926d25ecd9899990867c9152dcf34eee65bac8ec0dfc0d16a26e0c", [:rebar3], [{:goldrush, "0.1.9", [hex: :goldrush, repo: "hexpm", optional: false]}], "hexpm"}}
+  "lager": {:hex, :lager, "3.6.1", "9d29c5ff7f926d25ecd9899990867c9152dcf34eee65bac8ec0dfc0d16a26e0c", [:rebar3], [{:goldrush, "0.1.9", [hex: :goldrush, repo: "hexpm", optional: false]}], "hexpm"},
+}
